@@ -60,6 +60,8 @@ body {
   .movie-box {
     max-height: 70%;
     overflow: scroll;
+    display: block;
+    margin: 0;
   }
 }
 
