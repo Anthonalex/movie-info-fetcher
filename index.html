@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Finder</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- <input
+        type="text"
+        class="search-input"
+        placeholder="Type movie's name.."
+      /> -->
+      <select name="select-movie" id="selector" class="search-input">
+        <option value="Castle in the Sky">Castle in the Sky</option>
+        <option value="Grave of the Fireflies">Grave of the Fireflies</option>
+        <option value="My Neighbor Totoro">My Neighbor Totoro</option>
+        <option value="Kiki's Delivery Service">Kiki's Delivery Service</option>
+        <option value="Only Yesterday">Only Yesterday</option>
+        <option value="Porco Rosso">Porco Rosso</option>
+        <option value="Pom Poko">Pom Poko</option>
+        <option value="Whisper of the Heart">Whisper of the Heart</option>
+        <option value="Princess Mononoke">Princess Mononoke</option>
+        <option value="My Neighbors the Yamadas">
+          My Neighbors the Yamadas
+        </option>
+        <option value="Spirited Away">Spirited Away</option>
+        <option value="The Cat Returns">The Cat Returns</option>
+        <option value="Howl's Moving Castle">Howl's Moving Castle</option>
+        <option value="Tales from Earthsea">Tales from Earthsea</option>
+        <option value="Ponyo">Ponyo</option>
+        <option value="Arrietty">Arrietty</option>
+        <option value="From Up on Poppy Hill">From Up on Poppy Hill</option>
+        <option value="The Wind Rises">The Wind Rises</option>
+        <option value="The Tale of the Princess Kaguya">
+          The Tale of the Princess Kaguya
+        </option>
+        <option value="When Marnie Was There">When Marnie Was There</option>
+        <option value="The Red Turtle">The Red Turtle</option>
+      </select>
+      <button class="search-btn">Search</button>
+    </div>
+    <div class="movie-box-container">
+      <div class="movie-box">
+        <div class="movie-infos">
+          <b>Title :</b>
+          <p class="data-p title-p"></p>
+        </div>
+        <div class="movie-infos shrink">
+          <b>Description :</b>
+          <p class="data-p desc-paragraph"></p>
+        </div>
+        <div class="movie-infos">
+          <b>Director :</b>
+          <p class="data-p director-p"></p>
+        </div>
+        <div class="movie-infos">
+          <b>Producer :</b>
+          <p class="data-p producer-p"></p>
+        </div>
+        <div class="movie-infos">
+          <b>Release Date :</b>
+          <p class="data-p releaseDate-p"></p>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

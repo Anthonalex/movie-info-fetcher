@@ -1,0 +1,80 @@
+body {
+  font-family: "Comfortaa", cursive;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 26px;
+}
+
+.search-input {
+  width: 420px;
+  min-width: 220px;
+  padding: 8px;
+  font-size: 18px;
+  margin-right: 4px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.349);
+}
+
+.search-btn {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.349);
+  background: rgba(92, 238, 238, 0.397);
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background: #000;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.movie-box-container {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin: 26px;
+  height: 70vh;
+}
+
+.active {
+  display: flex;
+}
+
+.movie-box {
+  margin: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid rgba(66, 66, 66, 0.479);
+  border-radius: 4%;
+  padding: 12px;
+  width: 500px;
+  background: rgb(248, 246, 246);
+}
+
+.movie-infos {
+  width: 80%;
+  max-width: 400px;
+  margin: 6px 6px;
+  padding: 6px;
+}
+
+.shrink {
+  flex-shrink: 0;
+}
+
+.data-p {
+  display: inline-flex;
+  padding: 4px;
+  background: rgba(66, 66, 66, 0.781);
+  color: #fff;
+  border-radius: 4px;
+  word-break: break-word;
+  text-align: justify;
+  text-align-last: left;
+  font-size: 14px;
+}
